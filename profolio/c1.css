@@ -1,0 +1,198 @@
+
+*{
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana,
+      sans-serif;
+      line-height: 27px; 
+
+}
+
+.navlink{
+  
+    padding:20px;
+    
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin:10px;
+}
+
+.navlinks{
+    color:black;
+    background-color: rgb(252, 240, 227);
+    background-color:rgb(252, 159, 159);
+    text-decoration: none;
+    font-size:18px;
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:25px;
+    padding: 10px;
+    width:90px;
+    height: fit-content;
+    margin:10px; 
+    text-align: center;
+}
+
+.navlinks:hover{
+    background-color: white;
+    color:blue;
+    border:3px solid black;
+
+}
+
+
+#Info{
+    display:flex;
+    background-color: rgb(243, 214, 161);
+    border-radius: 30px;
+     
+    justify-content: space-between;
+    
+    
+
+}
+.textBox{
+   
+    margin-left:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+    font-size: larger;
+    line-height: 35px;
+}
+
+.profileImg{
+    margin-left:50px;
+    border-radius:50%; 
+    width: 200px;
+    height: 200px;
+    margin-top: 8px;
+}
+
+body{
+    
+    background-image:linear-gradient(to right,rgb(194, 247, 192),rgb(206, 248, 133),rgb(239, 246, 136));
+}
+
+h1{
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana,
+      sans-serif;
+      font-weight: 700;
+}
+h2{
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana,
+      sans-serif;
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+.edu sub{
+    font-size: larger;
+}
+
+#education{
+    border:2px solid black;
+    padding-left:20px;
+    margin-right: 300px;
+
+    
+}
+
+
+
+#skillset{
+    display:flex;
+    border:black;
+    
+}
+
+.skill{
+    margin-right:250px; 
+    margin-left:5px;
+}
+
+fieldset{
+    border:3px solid black;
+    padding-right:100px;
+    
+}
+
+legend{
+    border:15px sloid black;
+    font: 14px;
+}
+ 
+
+.listHeading{
+
+    font-size: 22px;
+    margin:2px;
+    line-height: 34px;
+    
+}
+li{
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.StGoals{
+    font:larger;
+
+}
+.feildOfInterest{
+    font:larger;
+}
+
+.contacts{
+    display:flex;
+    flex-direction: row;
+    height:100px;
+    width:200px; 
+    
+    
+    
+}
+.icons{
+    width: 60px;
+    height:60px;
+    margin:20px;
+   
+ }
+
+
+.icons:hover{
+     width:80px;
+    height:80px;
+
+}
+
+progress{
+    color:blue;
+   
+}
+
+hr{
+    height: 3px;
+    background-color:black;
+}
+
+progress{ 
+   width:200px;
+   height: 8px;
+    background-color: rgb(231, 213, 18); 
+}
+
+progress::-webkit-progress-value { 
+    background: rgb(79, 67, 251); 
+    width:200px;
+   height: 8px;
+}
